@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-// import "./todo.css";
+import "./todo.css";
 import Todo from "./todo.js";
-// import TODO from "./todo.json";
+import TODO from "./todo.json";
 
 export default function Page() {
   const [isOpen, setIsOpen] = useState(false);
